@@ -8,6 +8,7 @@ function connexpdo(string $db)
     $charset = "UTF8";
     $user = "176186"; // identifiant utilisateur
     $pass = "projetBANJ"; // mot de passe
+    echo "coucou";
     try {
         $pdo = new PDO("$sgbd:host=$host;dbname=$db;charset=$charset", $user , $pass);
         // force le lancement d'exception en cas d'erreurs d'exécution de requêtes SQL
