@@ -1,7 +1,14 @@
-USE marcsi_test2; 
 
+use rightcall_bdd;
 -- lien à ajouter avec les différents classement sur l'attribut idRevue
 -- faire les tables de travail (vue ou table en "dur")
+
+
+drop table IF EXISTS classementFNEGE;
+drop table IF EXISTS classementCNRS;
+drop table IF EXISTS classementHCERES;
+drop table IF EXISTS appelAPublication;
+drop table IF EXISTS revue;
 
 
 CREATE TABLE revue
@@ -37,21 +44,24 @@ CREATE TABLE appelAPublication
 
 CREATE TABLE classementFNEGE
 (
-	idRevue int(11) primary key,
-    anneeClassement year(4) primary key,
-    classementRevue varchar(3)
+	idRevue int(11) ,
+    anneeClassement year(4) ,
+    classementRevue varchar(3),
+		constraint FNEGEkey primary key (idRevue , anneeClassement)
 );
 
 CREATE TABLE classementCNRS
 (
-	idRevue int(11) primary key,
-    anneeClassement year(4) primary key,
-    classementRevue varchar(3)
+	idRevue int(11) ,
+    anneeClassement year(4) ,
+    classementRevue varchar(3),
+		constraint CNRSkey primary key (idRevue , anneeClassement)
 );
 
 CREATE TABLE classementHCERES
 (
-	idRevue int(11) primary key,
-    anneeClassement year(4) primary key,
-    classementRevue varchar(3)
+	idRevue int(11) ,
+    anneeClassement year(4) ,
+    classementRevue varchar(3),
+		constraint HCERESkey primary key (idRevue , anneeClassement)
 );
