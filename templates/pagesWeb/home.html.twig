@@ -1,0 +1,21 @@
+{% extends 'base.html.twig' %}
+
+{% block content %}
+
+  <div class="jumbotron txt-center">
+    <h1>Bienvenue sur notre site RightCall</h1>
+  </div>
+  <div class="container">
+    <div class="grid">
+      <div class="row">
+          <div class="col-md-3">
+              {% include 'pagesWeb/filter.html.twig' with {form: form} only %}
+          </div>
+        <div class="col-md-9">
+            {% include 'pagesWeb/_affiche.html.twig' %}
+        </div>
+      </div>
+    </div>
+  </div>
+
+{% endblock %}

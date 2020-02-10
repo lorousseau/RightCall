@@ -1,0 +1,10 @@
+App\Entity\Recherche:
+  recherche_{1..20}:
+    mot: <creature()>
+    titre_type:
+    categories: '<numberBetween(1,6)>x @categorie_*'
+    date:
+
+App\Entity\Categorie:
+  categorie_{1..10}:
+    nom: <creature()>

@@ -1,6 +1,18 @@
 # This file is the entry point to configure your own HTTP routes.
 # Files in the routes/ subdirectory configure the routes for your dependencies.
 
+home:
+  path: /
+  controller: App\Controller\HomeController::index
+
+emerald:
+  path: /site_ref
+  controller: App\Controller\EmeraldController::emerald
+
+classementRevue:
+  path: /classementRevue
+  controller: App\Controller\ClassementRevueController::classement
+
 #index:
 #    path: /
 #    defaults: { _controller: 'App\Controller\DefaultController::index' }

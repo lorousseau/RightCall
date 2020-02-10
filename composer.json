@@ -2,11 +2,15 @@
     "type": "project",
     "license": "proprietary",
     "require": {
-        "php": "^7.0.8",
+        "php": ">=7.3.13",
         "ext-ctype": "*",
         "ext-iconv": "*",
+        "doctrine/doctrine-fixtures-bundle": "^3.3",
+        "knplabs/knp-paginator-bundle": "4.*",
+        "mbezhanov/faker-provider-collection": "^1.2",
         "sensio/framework-extra-bundle": "^5.1",
         "symfony/asset": "3.4.*",
+        "symfony/config": "3.4.*",
         "symfony/console": "3.4.*",
         "symfony/dotenv": "3.4.*",
         "symfony/expression-language": "3.4.*",
@@ -19,6 +23,7 @@
         "symfony/security-bundle": "3.4.*",
         "symfony/serializer-pack": "*",
         "symfony/swiftmailer-bundle": "^3.1",
+        "symfony/templating": "3.4.*",
         "symfony/translation": "3.4.*",
         "symfony/twig-bundle": "3.4.*",
         "symfony/validator": "3.4.*",
@@ -26,6 +31,7 @@
         "symfony/yaml": "3.4.*"
     },
     "require-dev": {
+        "hautelook/alice-bundle": "^2.7",
         "symfony/debug-pack": "*",
         "symfony/maker-bundle": "^1.0",
         "symfony/profiler-pack": "*",
