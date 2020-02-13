@@ -7,11 +7,28 @@ home:
 
 emerald:
   path: /site_ref
-  controller: App\Controller\EmeraldController::emerald
+  controller: App\Controller\site\EmeraldController::emerald
 
-classementRevue:
-  path: /classementRevue
-  controller: App\Controller\ClassementRevueController::classement
+classementCnrs:
+  path: /classementCnrs
+  controller: App\Controller\classement\ClassementCnrsController::Cnrs
+
+classementFnege:
+  path: /classementFnege
+  controller: App\Controller\classement\ClassementFnegeController::Fnege
+
+classementHceres:
+  path: /classementHceres
+  controller: App\Controller\classement\ClassementFnegeController::Hceres
+
+
+security_registration:
+    path: /inscription
+    controller: App\Controller\SecurityController::registration
+
+inscription:
+  path: /inscription
+  controller: App\Controller\SecurityController::registration
 
 #index:
 #    path: /

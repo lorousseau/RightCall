@@ -22,8 +22,6 @@ class SearchData
      * @var Categorie[]
      */
     public $categories = [];
-    
-
 
 }
 

@@ -14,32 +14,12 @@
           }
         </style>
 {% endblock %}
-
-  </head>
-  <body>
-{# barre de navigation top #}
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-     <a class="navbar-brand" href="{{ path('home') }}">
-      <img src="{{ asset('images/logo_angers.jpg') }}" alt="logo_angers" class="img-fluid"   <img src="{{ asset('images/logo_angers.jpg') }}" alt="logo_angers" class="img-fluid" width="60px"/>
-     </a>
-     <div class="collapse navbar-collapse">
-       <ul class="navbar-nav mr-auto">
-         <li class="nav-item active">
-           <a class="nav-link" href="{{ path('home') }}">RightCall<span class="sr-only">(current)</span></a>
-         </li>
-
-         <li class="nav-item">
-           <a class="nav-link" href="{{ path('emerald') }}">Emerald</a>
-         </li>
-         <li class="nav-item">
-           <a class="nav-link" href="{{ path('classementRevue') }}">Classement des revues</a>
-         </li>
-       </ul>
-     </div>
-   </nav>
-{# fin barre de navigation top #}
+    </head>
+    <body>
+        {% include 'component/navbar.html.twig' %}
 
 {% block content %}
+
 {% endblock %}
 
 
@@ -49,34 +29,7 @@
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 {% endblock %}
 
+    {% include 'component/footer.html.twig' %}
 
-
-
-<!-- Probleme avec le css -->
-{% block footer %}
-        <!-- Footer -->
-        <footer class="page-footer font-small mdb-color lighten-3">
-          <!-- Footer Elements -->
-          <div class="container">
-            <!-- Grid row-->
-            <div class="row">
-              <!-- Grid column -->
-              <div class="col-lg-2 col-md-6 md-4">
-                <div class="view overlay z-depth-1-half">
-                  <!--Université Angers-->
-                    <img src="{{ asset('images/logo_angers.jpg') }}" alt="logo_angers" class="img-fluid" width="100px"/>
-                  <!--Emerald-->
-                    <img src="{{ asset('images/emerald.jpg') }}" alt="logo_emerald" class="img-fluid" width="70px"/>
-                    <div class="mask rgba-white-light"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Copyright -->
-          <div class="footer-copyright text-center py-3">
-            <p>© 2020 Copyright</p>
-          </div>
-        </footer>
-{% endblock %}
     </body>
 </html>
