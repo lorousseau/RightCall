@@ -1,0 +1,35 @@
+# This file is the entry point to configure your own HTTP routes.
+# Files in the routes/ subdirectory configure the routes for your dependencies.
+
+home:
+  path: /
+  controller: App\Controller\HomeController::index
+
+emerald:
+  path: /site_ref
+  controller: App\Controller\site\EmeraldController::emerald
+
+classementCnrs:
+  path: /classementCnrs
+  controller: App\Controller\classement\ClassementCnrsController::Cnrs
+
+classementFnege:
+  path: /classementFnege
+  controller: App\Controller\classement\ClassementFnegeController::Fnege
+
+classementHceres:
+  path: /classementHceres
+  controller: App\Controller\classement\ClassementFnegeController::Hceres
+
+
+security_registration:
+    path: /inscription
+    controller: App\Controller\SecurityController::registration
+
+inscription:
+  path: /inscription
+  controller: App\Controller\SecurityController::registration
+
+#index:
+#    path: /
+#    defaults: { _controller: 'App\Controller\DefaultController::index' }
