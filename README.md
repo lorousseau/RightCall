@@ -2,7 +2,7 @@
 
 # installer le projet en local
 
-#Executez la commande suivante dans le terminal :
+# Executez la commande suivante dans le terminal :
 php -r "eval('?>'.file_get_contents('http://getcomposer.org/installer'));"
 
 # Si tout se passe bien vous devriez obtenir la sortie suivante : 
