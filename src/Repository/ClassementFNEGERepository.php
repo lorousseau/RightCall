@@ -2,7 +2,7 @@
 
 namespace App\Repository;
 
-use App\Entity\ClassementFNEGE;
+use App\Entity\Classementfnege;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Common\Persistence\ManagerRegistry;
 use Doctrine\DBAL\DBALException;
@@ -24,7 +24,7 @@ class ClassementFNEGERepository extends ServiceEntityRepository
     {
         $query = $this->getEntityManager()->getConnection();
 
-        $sql = 'SELECT * FROM classement_fnege order by classement_revue';
+        $sql = 'SELECT * FROM classementFNEGE';
         try {
             $stmt = $query->prepare($sql);
         } catch (DBALException $e) {

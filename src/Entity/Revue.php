@@ -5,59 +5,82 @@ namespace App\Entity;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * @ORM\Entity(repositoryClass="App\Repository\RevueRepository")
+ * Revue
+ *
+ * @ORM\Table(name="revue")
+ * @ORM\Entity
  */
 class Revue
 {
     /**
-     * @ORM\Id()
-     * @ORM\GeneratedValue()
-     * @ORM\Column(type="integer")
+     * @var int
+     *
+     * @ORM\Column(name="id", type="integer", nullable=false)
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="IDENTITY")
      */
     private $id;
 
     /**
-     * @ORM\Column(type="integer")
+     * @var int
+     *
+     * @ORM\Column(name="id_revue", type="integer", nullable=false)
      */
     private $idRevue;
 
     /**
-     * @ORM\Column(type="text")
+     * @var string
+     *
+     * @ORM\Column(name="issn", type="text", length=0, nullable=false)
      */
     private $issn;
 
     /**
-     * @ORM\Column(type="text")
+     * @var string
+     *
+     * @ORM\Column(name="titre_revue", type="text", length=0, nullable=false)
      */
     private $titreRevue;
 
     /**
-     * @ORM\Column(type="text")
+     * @var string
+     *
+     * @ORM\Column(name="url_site_revue", type="text", length=0, nullable=false)
      */
     private $urlSiteRevue;
 
     /**
-     * @ORM\Column(type="string", length=3)
+     * @var string
+     *
+     * @ORM\Column(name="classement_cnrs", type="string", length=3, nullable=false)
      */
-    private $classementCNRS;
+    private $classementCnrs;
 
     /**
-     * @ORM\Column(type="string", length=3)
+     * @var string
+     *
+     * @ORM\Column(name="classement_fnege", type="string", length=3, nullable=false)
      */
-    private $classementFNEGE;
+    private $classementFnege;
 
     /**
-     * @ORM\Column(type="string", length=3)
+     * @var string
+     *
+     * @ORM\Column(name="classement_hceres", type="string", length=3, nullable=false)
      */
-    private $classementHCERES;
+    private $classementHceres;
 
     /**
-     * @ORM\Column(type="text")
+     * @var string
+     *
+     * @ORM\Column(name="widget_recap", type="text", length=0, nullable=false)
      */
     private $widgetRecap;
 
     /**
-     * @ORM\Column(type="string", length=300)
+     * @var string
+     *
+     * @ORM\Column(name="editeur", type="string", length=300, nullable=false)
      */
     private $editeur;
 
@@ -114,38 +137,38 @@ class Revue
         return $this;
     }
 
-    public function getClassementCNRS(): ?string
+    public function getClassementCnrs(): ?string
     {
-        return $this->classementCNRS;
+        return $this->classementCnrs;
     }
 
-    public function setClassementCNRS(string $classementCNRS): self
+    public function setClassementCnrs(string $classementCnrs): self
     {
-        $this->classementCNRS = $classementCNRS;
+        $this->classementCnrs = $classementCnrs;
 
         return $this;
     }
 
-    public function getClassementFNEGE(): ?string
+    public function getClassementFnege(): ?string
     {
-        return $this->classementFNEGE;
+        return $this->classementFnege;
     }
 
-    public function setClassementFNEGE(string $classementFNEGE): self
+    public function setClassementFnege(string $classementFnege): self
     {
-        $this->classementFNEGE = $classementFNEGE;
+        $this->classementFnege = $classementFnege;
 
         return $this;
     }
 
-    public function getClassementHCERES(): ?string
+    public function getClassementHceres(): ?string
     {
-        return $this->classementHCERES;
+        return $this->classementHceres;
     }
 
-    public function setClassementHCERES(string $classementHCERES): self
+    public function setClassementHceres(string $classementHceres): self
     {
-        $this->classementHCERES = $classementHCERES;
+        $this->classementHceres = $classementHceres;
 
         return $this;
     }
@@ -173,4 +196,6 @@ class Revue
 
         return $this;
     }
+
+
 }

@@ -2,7 +2,7 @@
 
 namespace App\Repository;
 
-use App\Entity\ClassementCNRS;
+use App\Entity\Classementcnrs;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Common\Persistence\ManagerRegistry;
 use Doctrine\DBAL\DBALException;
@@ -27,7 +27,7 @@ class ClassementCNRSRepository extends ServiceEntityRepository
     {
         $query = $this->getEntityManager()->getConnection();
 
-    $sql = 'SELECT * FROM classement_cnrs order by classement_revue';
+    $sql = 'SELECT * FROM classementCNRS';
         try {
             $stmt = $query->prepare($sql);
         } catch (DBALException $e) {
@@ -39,15 +39,4 @@ class ClassementCNRSRepository extends ServiceEntityRepository
     return $stmt->fetchAll();
     }
 
-    /*
-    public function findOneBySomeField($value): ?ClassementCNRS
-    {
-        return $this->createQueryBuilder('c')
-            ->andWhere('c.exampleField = :val')
-            ->setParameter('val', $value)
-            ->getQuery()
-            ->getOneOrNullResult()
-        ;
-    }
-    */
 }

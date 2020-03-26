@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet title="XSL_formatting" type="text/xsl" href="/assets/css/rss_feed.xsl"?>
+		<!--
+		This is 512 bytes of nonsense, since the Firefox 2 developers, in one of the strangest decisions ever, decided 
+		they would obsolete XML styles by overriding them without permission.  Furthermore, the developers appear 
+		to be disinterested in fixing this.  Therefore, we use the unofficial workaround, which includes filling 
+		up the first 512 bytes of a document so that the sniffer doesn't encounter the RSS tag.  I really enjoy
+		using Firefox, but this particular behavior really annoys me! Anyway, since I'm almost at 512 characters, I'm 
+		going to ramble on for another minute in this comment, and then, without further adue, present you with a 
+		valid XML feed. 
+		-->		<rss version="2.0">
+	 	<channel>
+	  	<title>Emerald calls for papers</title>
+	  	<link>http://www.emeraldgrouppublishing.com/authors/writing/calls.xml</link>
+	  	<description>Calls for papers from Emerald journals.</description>
+	  	<language>en-us</language>
+	  	<copyright>Copyright 2007 Emerald Group Publishing Ltd</copyright>
+	  					<item>
+				<title>Artificial Intelligence as an Enabler for Entrepreneurs</title>
+				<link>http://www.emeraldgrouppublishing.com/authors/writing/calls.htm?id=8852</link>
+				<description>from International Journal of Entrepreneurial Behavior &#38; Research, final submission on 30th November 2020</description>
+				</item>				<item>
+				<title>Evolution in Hospitality: digital transformation and artificial intelligence</title>
+				<link>http://www.emeraldgrouppublishing.com/authors/writing/calls.htm?id=8861</link>
+				<description>from International Journal of Organizational Analysis, final submission on 15th March 2020</description>
+				</item>				<item>
+				<title>Team Learning</title>
+				<link>http://www.emeraldgrouppublishing.com/authors/writing/calls.htm?id=8862</link>
+				<description>from The Learning Organization, final submission on 30th September 2020</description>
+				</item>				<item>
+				<title>Machine Learning for Safety, Security and Trust of Cloud and IoT-based Data in Consumer Electronic</title>
+				<link>http://www.emeraldgrouppublishing.com/authors/writing/calls.htm?id=8865</link>
+				<description>from Information and Computer Security, final submission on 31st March 2020</description>
+				</item>				<item>
+				<title>From Family Entrepreneurship to Family Entrepreneuring</title>
+				<link>http://www.emeraldgrouppublishing.com/authors/writing/calls.htm?id=8869</link>
+				<description>from International Journal of Entrepreneurial Behavior &#38; Research, final submission on 15th April 2021</description>
+				</item>				<item>
+				<title>Sport Management Using Partial Least Squares Structural Equation Modeling (PLS-SEM)</title>
+				<link>http://www.emeraldgrouppublishing.com/authors/writing/calls.htm?id=8871</link>
+				<description>from International Journal of Sports Marketing and Sponsorship, final submission on 20th December 2020</description>
+				</item>				<item>
+				<title>Innovation-Driven Human Resource Management Practices in the Digital Era</title>
+				<link>http://www.emeraldgrouppublishing.com/authors/writing/calls.htm?id=8872</link>
+				<description>from Chinese Management Studies, final submission on 1st June 2020</description>
+				</item>				<item>
+				<title>Shades of change with and through Blockchain </title>
+				<link>http://www.emeraldgrouppublishing.com/authors/writing/calls.htm?id=8873</link>
+				<description>from Journal of Organizational Change Management, final submission on 30th June 2020</description>
+				</item>				<item>
+				<title>Supply Chain Management in an Era of Reglobalization</title>
+				<link>http://www.emeraldgrouppublishing.com/authors/writing/calls.htm?id=8874</link>
+				<description>from International Journal of Physical Distribution &#38; Logistics Management , final submission on 31st December 2020</description>
+				</item>				<item>
+				<title>Innovative Knowledge-Based Methods for Information Management in Business and Marketing</title>
+				<link>http://www.emeraldgrouppublishing.com/authors/writing/calls.htm?id=8878</link>
+				<description>from Journal of Indian Business Research, final submission on 1st September 2020</description>
+				</item>				<item>
+				<title>Investigating Multi-Level Sociological, Psychological, and Managerial Challenges in the context of Intellectual Capital from and within Emerging Markets</title>
+				<link>http://www.emeraldgrouppublishing.com/authors/writing/calls.htm?id=8880</link>
+				<description>from Journal of Intellectual Capital, final submission on 30th June 2020</description>
+				</item>				<item>
+				<title>Performance Measurement and Management in Industry 4.0: Where are we&#63; What next&#63;</title>
+				<link>http://www.emeraldgrouppublishing.com/authors/writing/calls.htm?id=8883</link>
+				<description>from International Journal of Productivity and Performance Management, final submission on 30th June 2020</description>
+				</item>				<item>
+				<title>Sports and Urban Development: Critical Issues</title>
+				<link>http://www.emeraldgrouppublishing.com/authors/writing/calls.htm?id=8886</link>
+				<description>from International Journal of Sports Marketing and Sponsorship, final submission on 15th April 2020</description>
+				</item>				<item>
+				<title>Marketization and commodification of history</title>
+				<link>http://www.emeraldgrouppublishing.com/authors/writing/calls.htm?id=8887</link>
+				<description>from Journal of Historical Research in Marketing, final submission on 16th July 2020</description>
+				</item>				<item>
+				<title>Gender differences in developing global digital marketing strategies</title>
+				<link>http://www.emeraldgrouppublishing.com/authors/writing/calls.htm?id=8888</link>
+				<description>from Review of International Business and Strategy, final submission on 30th October 2020</description>
+				</item>				<item>
+				<title>Global Information for Climate Change and Sustainability </title>
+				<link>http://www.emeraldgrouppublishing.com/authors/writing/calls.htm?id=8889</link>
+				<description>from Global Knowledge, Memory and Communication, final submission on 24th June 2020</description>
+				</item>				<item>
+				<title>Accounting future and deep transformations in organisations </title>
+				<link>http://www.emeraldgrouppublishing.com/authors/writing/calls.htm?id=8890</link>
+				<description>from Journal of Financial Reporting and Accounting, final submission on 31st March 2020</description>
+				</item>				<item>
+				<title>Managerial Sport Finance</title>
+				<link>http://www.emeraldgrouppublishing.com/authors/writing/calls.htm?id=8895</link>
+				<description>from Managerial Finance, final submission on 1st May 2020</description>
+				</item>				<item>
+				<title>Intersectionality in Progressive Research: Contesting Privilege, Fostering Inclusion</title>
+				<link>http://www.emeraldgrouppublishing.com/authors/writing/calls.htm?id=8897</link>
+				<description>from Equality, Diversity and Inclusion, final submission on 1st April 2021</description>
+				</item>				<item>
+				<title>Organizing the City</title>
+				<link>http://www.emeraldgrouppublishing.com/authors/writing/calls.htm?id=8901</link>
+				<description>from Journal of Organizational Ethnography, final submission on 1st October 2020</description>
+				</item>				<item>
+				<title>Synergies between BIM and Lean Construction</title>
+				<link>http://www.emeraldgrouppublishing.com/authors/writing/calls.htm?id=8900</link>
+				<description>from Engineering, Construction and Architectural Management, final submission on 30th September 2020</description>
+				</item>				<item>
+				<title>Mirror, Mirror On The Wall! Examining The Bright And Dark Side Of Face And Body Beautification/Modification Services</title>
+				<link>http://www.emeraldgrouppublishing.com/authors/writing/calls.htm?id=8905</link>
+				<description>from Journal of Services Marketing, final submission on 10th December 2020</description>
+				</item>				<item>
+				<title>The Bright Side and the Dark Side of Digital Health</title>
+				<link>http://www.emeraldgrouppublishing.com/authors/writing/calls.htm?id=8907</link>
+				<description>from Internet Research, final submission on 1st September 2020</description>
+				</item>				<item>
+				<title>Sport Management, Marketing, and Innovation</title>
+				<link>http://www.emeraldgrouppublishing.com/authors/writing/calls.htm?id=8908</link>
+				<description>from International Journal of Sports Marketing and Sponsorship, final submission on 15th February 2021</description>
+				</item>				<item>
+				<title>Strategic Knowledge Management for Digital Transformation</title>
+				<link>http://www.emeraldgrouppublishing.com/authors/writing/calls.htm?id=8909</link>
+				<description>from Journal of Strategy and Management, final submission on 30th July 2020</description>
+				</item>				<item>
+				<title>Management in Latin America</title>
+				<link>http://www.emeraldgrouppublishing.com/authors/writing/calls.htm?id=8910</link>
+				<description>from Academia Revista Latinoamericana de Administraci&#195;&#179;n, final submission on 30th April 2020</description>
+				</item>				<item>
+				<title>Reimagining Global Talent Management&#63; Considering the implications of context for research and practice</title>
+				<link>http://www.emeraldgrouppublishing.com/authors/writing/calls.htm?id=8911</link>
+				<description>from Journal of Organizational Effectiveness, final submission on 4th September 2020</description>
+				</item>				<item>
+				<title>Industrial Marketing in Healthcare</title>
+				<link>http://www.emeraldgrouppublishing.com/authors/writing/calls.htm?id=8912</link>
+				<description>from Journal of Business &#38; Industrial Marketing, final submission on 31st July 2020</description>
+				</item>				<item>
+				<title>Digital Transformation in the Emerging Markets and Communities of Africa</title>
+				<link>http://www.emeraldgrouppublishing.com/authors/writing/calls.htm?id=8913</link>
+				<description>from Journal of Enterprising Communities: People and Places in the Global Economy, final submission on 1st July 2020</description>
+				</item>				<item>
+				<title>The Role of Universities in Supporting Social Innovation</title>
+				<link>http://www.emeraldgrouppublishing.com/authors/writing/calls.htm?id=8914</link>
+				<description>from Social Enterprise Journal, final submission on 31st October 2020</description>
+				</item>				<item>
+				<title>Towards Large-scale Industry-wide Physical Internet Deployment</title>
+				<link>http://www.emeraldgrouppublishing.com/authors/writing/calls.htm?id=8916</link>
+				<description>from Industrial Management &#38; Data Systems, final submission on 31st October 2020</description>
+				</item>				<item>
+				<title> Honoring the Scientific Endeavor of James March</title>
+				<link>http://www.emeraldgrouppublishing.com/authors/writing/calls.htm?id=8917</link>
+				<description>from Journal of Management History, final submission on 30th January 2021</description>
+				</item>				<item>
+				<title>Knowledge Management in Tourism: paradigms, approaches and methods</title>
+				<link>http://www.emeraldgrouppublishing.com/authors/writing/calls.htm?id=8922</link>
+				<description>from Journal of Organizational Change Management, final submission on 30th November 2020</description>
+				</item>				<item>
+				<title>CIGAR Workshop 2020 and JPBAFM Special Issue on:The Quality of Public Sector Audit: Profession, Institutions and Standards </title>
+				<link>http://www.emeraldgrouppublishing.com/authors/writing/calls.htm?id=8923</link>
+				<description>from Journal of Public Budgeting, Accounting &#38; Financial Management, final submission on 10th May 2020</description>
+				</item>				<item>
+				<title>Management in the Era of Disruption: Insights from India</title>
+				<link>http://www.emeraldgrouppublishing.com/authors/writing/calls.htm?id=8924</link>
+				<description>from South Asian Journal of Business Studies, final submission on 15th March 2020</description>
+				</item>				<item>
+				<title>Advancing the study of complexity in social innovation and entrepreneurship studies</title>
+				<link>http://www.emeraldgrouppublishing.com/authors/writing/calls.htm?id=8925</link>
+				<description>from Social Enterprise Journal, final submission on 30th November 2020</description>
+				</item>				<item>
+				<title>Qualitative Research in Hospitality and Tourism Management</title>
+				<link>http://www.emeraldgrouppublishing.com/authors/writing/calls.htm?id=8927</link>
+				<description>from Journal of Hospitality and Tourism Technology, final submission on 30th September 2020</description>
+				</item>				<item>
+				<title>Features, drivers, and outcomes of food tourism</title>
+				<link>http://www.emeraldgrouppublishing.com/authors/writing/calls.htm?id=8928</link>
+				<description>from British Food Journal, final submission on 15th April 2020</description>
+				</item>				<item>
+				<title>Public-private partnership in healthcare and in organizations</title>
+				<link>http://www.emeraldgrouppublishing.com/authors/writing/calls.htm?id=8929</link>
+				<description>from International Journal of Organizational Analysis, final submission on 31st July 2020</description>
+				</item>				<item>
+				<title>Entrepreneurship in Latin America Countries: Evidence from GEM and GUESSS Project</title>
+				<link>http://www.emeraldgrouppublishing.com/authors/writing/calls.htm?id=8930</link>
+				<description>from Academia Revista Latinoamericana de Administraci&#195;&#179;n, final submission on 30th June 2020</description>
+				</item>				<item>
+				<title>Responsible Business and Strategy in Conversation - Can Management History Inform Corporate Responsibility&#63;</title>
+				<link>http://www.emeraldgrouppublishing.com/authors/writing/calls.htm?id=8931</link>
+				<description>from Journal of Management History, final submission on 31st March 2020</description>
+				</item>				<item>
+				<title>Women in STEM study and employment in the Middle-East North Africa region</title>
+				<link>http://www.emeraldgrouppublishing.com/authors/writing/calls.htm?id=8932</link>
+				<description>from Gender in Management, final submission on 30th May 2020</description>
+				</item>				<item>
+				<title>E-democracy and the European Union: input and output legitimacy through ICT</title>
+				<link>http://www.emeraldgrouppublishing.com/authors/writing/calls.htm?id=8934</link>
+				<description>from Transforming Government: People, Process and Policy, final submission on 15th September 2020</description>
+				</item>				<item>
+				<title>Theoretical Advancements in Business: Past, Present and Future</title>
+				<link>http://www.emeraldgrouppublishing.com/authors/writing/calls.htm?id=8935</link>
+				<description>from International Journal of Organizational Analysis, final submission on 15th December 2020</description>
+				</item>				<item>
+				<title>Re-structuring HR Practices and Theories for Organizational Transformation &#38; Sustainability</title>
+				<link>http://www.emeraldgrouppublishing.com/authors/writing/calls.htm?id=8937</link>
+				<description>from International Journal of Organizational Analysis, final submission on 31st July 2020</description>
+				</item>				<item>
+				<title>Technological Advancement and Pioneering Methods for Smart Cities – Recent Advances and Future Trends</title>
+				<link>http://www.emeraldgrouppublishing.com/authors/writing/calls.htm?id=8938</link>
+				<description>from Library Hi Tech, final submission on 30th September 2020</description>
+				</item>				<item>
+				<title>The Impact of Technology on Supply Chains in Emerging and Informal Markets</title>
+				<link>http://www.emeraldgrouppublishing.com/authors/writing/calls.htm?id=8941</link>
+				<description>from International Journal of Logistics Management, final submission on 1st December 2020</description>
+				</item>				<item>
+				<title>Risk Governance and Risk Management in Change</title>
+				<link>http://www.emeraldgrouppublishing.com/authors/writing/calls.htm?id=8942</link>
+				<description>from Journal of Accounting &#38; Organizational Change, final submission on 30th November 2020</description>
+				</item>				<item>
+				<title>Downstream Product Innovation and Upstream Supply Chain Implications</title>
+				<link>http://www.emeraldgrouppublishing.com/authors/writing/calls.htm?id=8943</link>
+				<description>from Supply Chain Management, final submission on 30th November 2020</description>
+				</item>				<item>
+				<title>Data Driven Quality Management Systems for improving Supply Chain Management Performance</title>
+				<link>http://www.emeraldgrouppublishing.com/authors/writing/calls.htm?id=8945</link>
+				<description>from The TQM Journal, final submission on 23rd December 2020</description>
+				</item>				<item>
+				<title>Lean Six Sigma and Industry 4.0</title>
+				<link>http://www.emeraldgrouppublishing.com/authors/writing/calls.htm?id=8947</link>
+				<description>from International Journal of Quality &#38; Reliability Management, final submission on 4th December 2020</description>
+				</item>				<item>
+				<title>Big Data and Analytics </title>
+				<link>http://www.emeraldgrouppublishing.com/authors/writing/calls.htm?id=8948</link>
+				<description>from Qualitative Research in Accounting &#38; Management, final submission on 1st October 2020</description>
+				</item>				<item>
+				<title>A human rights approach to mental health services, policy and legislation</title>
+				<link>http://www.emeraldgrouppublishing.com/authors/writing/calls.htm?id=8949</link>
+				<description>from International Journal of Human Rights in Healthcare, final submission on 30th June 2020</description>
+				</item>				<item>
+				<title>Gamifying human computer interaction for young consumers</title>
+				<link>http://www.emeraldgrouppublishing.com/authors/writing/calls.htm?id=8950</link>
+				<description>from Young Consumers, final submission on 15th December 2020</description>
+				</item>				<item>
+				<title>Gamifying human computer interaction for young consumers</title>
+				<link>http://www.emeraldgrouppublishing.com/authors/writing/calls.htm?id=8951</link>
+				<description>from Young Consumers, final submission on 15th December 2020</description>
+				</item>				<item>
+				<title>Gamifying human computer interaction for young consumers</title>
+				<link>http://www.emeraldgrouppublishing.com/authors/writing/calls.htm?id=8952</link>
+				<description>from Young Consumers, final submission on 15th December 2020</description>
+				</item>				<item>
+				<title>The Influence of Digital Transformation on Performance Management: Outlining a New Research Agenda</title>
+				<link>http://www.emeraldgrouppublishing.com/authors/writing/calls.htm?id=8953</link>
+				<description>from Meditari Accountancy Research, final submission on 28th February 2021</description>
+				</item>				<item>
+				<title>Emerging Trends and Impacts of the rise of AI, Data Analytics and Blockchain</title>
+				<link>http://www.emeraldgrouppublishing.com/authors/writing/calls.htm?id=8954</link>
+				<description>from Journal of Enterprise Information Management, final submission on 15th December 2020</description>
+				</item>				<item>
+				<title>Psychological Trauma in Intellectual Disability populations</title>
+				<link>http://www.emeraldgrouppublishing.com/authors/writing/calls.htm?id=8958</link>
+				<description>from Advances in Mental Health &#38; Intellectual Disabilities, final submission on 1st October 2020</description>
+				</item>				<item>
+				<title>Impacts of emerging technologies on accounting, auditing, taxation and financial services</title>
+				<link>http://www.emeraldgrouppublishing.com/authors/writing/calls.htm?id=8962</link>
+				<description>from Asian Review of Accounting , final submission on 1st October 2020</description>
+				</item>				<item>
+				<title>The integrated reporting and corporate social responsibility; a new trend</title>
+				<link>http://www.emeraldgrouppublishing.com/authors/writing/calls.htm?id=8963</link>
+				<description>from Journal of Financial Reporting and Accounting, final submission on 30th April 2020</description>
+				</item>				<item>
+				<title>Reviewing the LIS literature </title>
+				<link>http://www.emeraldgrouppublishing.com/authors/writing/calls.htm?id=8964</link>
+				<description>from Global Knowledge, Memory and Communication, final submission on 30th June 2020</description>
+				</item>				<item>
+				<title>Social Robots: Services and Applications </title>
+				<link>http://www.emeraldgrouppublishing.com/authors/writing/calls.htm?id=8965</link>
+				<description>from Library Hi Tech, final submission on 6th April 2020</description>
+				</item>				<item>
+				<title>The Influence of Digital Transformation on Performance Management: Outlining a New Research Agenda</title>
+				<link>http://www.emeraldgrouppublishing.com/authors/writing/calls.htm?id=8969</link>
+				<description>from Meditari Accountancy Research, final submission on 28th February 2021</description>
+				</item>				<item>
+				<title>Shifting Spheres</title>
+				<link>http://www.emeraldgrouppublishing.com/authors/writing/calls.htm?id=8971</link>
+				<description>from Kybernetes, final submission on 1st June 2020</description>
+				</item>
+	  	</channel>
+		</rss>

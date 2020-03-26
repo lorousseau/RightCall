@@ -2,7 +2,7 @@
 
 namespace App\Repository;
 
-use App\Entity\ClassementHCERES;
+use App\Entity\Classementhceres;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Common\Persistence\ManagerRegistry;
 use Doctrine\DBAL\DBALException;
@@ -24,7 +24,7 @@ class ClassementHCERESRepository extends ServiceEntityRepository
     {
         $query = $this->getEntityManager()->getConnection();
 
-        $sql = 'SELECT * FROM classement_hceres order by classement_revue';
+        $sql = 'SELECT * FROM classementHCERES';
         try {
             $stmt = $query->prepare($sql);
         } catch (DBALException $e) {
@@ -36,15 +36,4 @@ class ClassementHCERESRepository extends ServiceEntityRepository
         return $stmt->fetchAll();
     }
 
-    /*
-    public function findOneBySomeField($value): ?ClassementHCERES
-    {
-        return $this->createQueryBuilder('c')
-            ->andWhere('c.exampleField = :val')
-            ->setParameter('val', $value)
-            ->getQuery()
-            ->getOneOrNullResult()
-        ;
-    }
-    */
 }

@@ -28,9 +28,16 @@ class Categorie
      */
     private $recherches;
 
+    /**
+     * @ORM\ManyToMany(targetEntity="App\Entity\Appelapublication", mappedBy="categories")
+     */
+    private $appelapublications;
+
+
     public function __construct()
     {
         $this->recherches = new ArrayCollection();
+        $this->appelapublications = new ArrayCollection();
     }
 
     public function getId(): ?int
@@ -83,4 +90,33 @@ class Categorie
         return $this->nom;
 
     }
-}
+
+    /**
+     * @return Collection|Appelapublication[]
+     */
+    public function getAppelapublications(): Collection
+    {
+        return $this->appelapublications;
+    }
+
+    public function addAppelapublication(Appelapublication $appelapublication): self
+    {
+        if (!$this->appelapublications->contains($appelapublication)) {
+            $this->appelapublications[] = $appelapublication;
+            $appelapublication->addCategory($this);
+        }
+
+        return $this;
+    }
+
+    public function removeAppelapublication(Appelapublication $appelapublication): self
+    {
+        if ($this->appelapublications->contains($appelapublication)) {
+            $this->appelapublications->removeElement($appelapublication);
+            $appelapublication->removeCategory($this);
+        }
+
+        return $this;
+    }
+
+  }

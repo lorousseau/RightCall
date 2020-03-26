@@ -3,9 +3,13 @@
     {{ form_row(form.q) }}
 
     <h4>Catégories</h4>
+{#    {% if app.Categorie.getId() == null %}
+      <p>Aucune catégorie</p>
+    {% else %}
+#} {# gestion si table catégorie vide #}
+      {{ form_row(form.categories) }}
 
-    {{ form_row(form.categories) }}
-
-    <button type="submit" class="btn btn-primary w-100">Filtrer</button>
-
+      <button type="submit" class="btn btn-primary w-100">Filtrer</button>
+  {#  {% endif %}
+  #}
 {{ form_end(form) }}

@@ -9,6 +9,10 @@ emerald:
   path: /site_ref
   controller: App\Controller\site\EmeraldController::emerald
 
+#remplissageBD: 
+#  path: /
+#  controller: App\Controller\site\EmeraldController::remplissageBD
+
 classementCnrs:
   path: /classementCnrs
   controller: App\Controller\classement\ClassementCnrsController::Cnrs
@@ -30,6 +34,6 @@ inscription:
   path: /inscription
   controller: App\Controller\SecurityController::registration
 
-#index:
-#    path: /
-#    defaults: { _controller: 'App\Controller\DefaultController::index' }
+call:
+    path: /call
+    controller: App\Controller\CallController::index

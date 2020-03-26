@@ -3,48 +3,41 @@
 {% block content %}
 
 {# la classe jumbotron est la bande grise du titre #}
-  <div class="jumbotron txt-center">
-    <h1> Voici les différents calls d'Emerald</h1>
-  </div>
-
-  <div class="container">
+<div class="jumbotron txt-center">
+    <h1>Call du site Emerald</h1>
+</div>
+<div class="container">
     <div class="row">
-
-      <div class="col-lg-10">
-        <div class="">
-          <table class="table">
-            <thead class="thead-dark">
-            <tr>
-              <th scope="col">#</th>
-              <th scope="col">First</th>
-              <th scope="col">Last</th>
-              <th scope="col">Handle</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-              <th scope="row">1</th>
-              <td>Mark</td>
-              <td>Otto</td>
-              <td>@mdo</td>
-            </tr>
-            <tr>
-              <th scope="row">2</th>
-              <td>Jacob</td>
-              <td>Thornton</td>
-              <td>@fat</td>
-            </tr>
-            <tr>
-              <th scope="row">3</th>
-              <td>Larry</td>
-              <td>the Bird</td>
-              <td>@twitter</td>
-            </tr>
-            </tbody>
-          </table>
+        <div class="col-lg-10">
+            <table class="table">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Titre</th>
+                        <th scope="col">Date de fin de soumission</th>
+                        <th scope="col">Date de publication</th>
+                        <th scope="col">Titre de la revue</th>
+                        <th scope="col"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for rang in publication %}
+                        <tr>
+                            <th scope="row"></th>
+                            <td>{{ rang.titreAppel }}</td>
+                            <td>{{ rang.dateFinSoumission()|date('d-m-Y') }}</td>
+                            <td>{{ rang.datepublication()|date('d-m-Y') }}</td>
+                            <td>{{ rang.titreRevueTrouve }}</td>
+                            <td><a href="{{ rang.lien }}">voir plus</a></td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            <div style="margin-top: 2rem">
+                {{ knp_pagination_render(publication) }}
+            </div>
         </div>
-      </div>
     </div>
-  </div>
+</div>
 
 {% endblock %}
