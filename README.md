@@ -24,6 +24,10 @@ Updating to version 1.7.2 (stable channel).
  Downloading (100%)
 Use composer self-update --rollback to return to version 1.6.3
 
+# Afin de lancer l'application :
+
+symphony server:start
+
 
 
 
